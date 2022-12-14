@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tropical Store</title>
+    <link rel="stylesheet" href="./css/styles.css">
+</head>
+<body>
+    <header>
+        <img class="logo-header" src="./image/logotrp.png" alt="logo">
+        
+        <div class="container-icon">
+            <div class="container-cart-icon">
+               <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="icon-cart">
+                <path stroke-linecap="round" stroke-linejoin="round" d="M2.25 3h1.386c.51 0 .955.343 1.087.835l.383 1.437M7.5 14.25a3 3 0 00-3 3h15.75m-12.75-3h11.218c1.121-2.3 2.1-4.684 2.924-7.138a60.114 60.114 0 00-16.536-1.84M7.5 14.25L5.106 5.272M6 20.25a.75.75 0 11-1.5 0 .75.75 0 011.5 0zm12.75 0a.75.75 0 11-1.5 0 .75.75 0 011.5 0z" />
+            </svg> 
+            </div>
+            
+            <div class="count-products">
+                <span id="contador-productos">0
+                </span>
+            </div>              
+
+            <div class="container-cart-products hidden-cart">
+                <div class="row-product">
+                     <div class="cart-product">
+                        <div class="inf-cart-product">
+                            <span class="cantidad-producto-carrito"></span>
+                            <p class="titulo-producto-carrito"></p>
+                            <span class="precio-producto-carrita"></span>
+                        </div>
+                                            
+                        <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="icon-close">
+                        <path stroke-linecap="round" stroke-linejoin="round" d="M6 18L18 6M6 6l12 12" />
+                        </svg>
+                                            
+                    </div>
+                </div>
+                
+                <div class="cart-total">
+                    <h3>Total</h3>
+                    <span class="total-pagar">$0</span>
+                </div>
+            </div>
+        </div>
+    </header>
+    <main>
+        <div class="container-items">
+
+            <div class="item">
+                <figure>
+                    <img src="./image/producto1.jfif" alt="camiseta">
+                </figure>
+                <div class="inf-product">
+                    <h2>Camiseta Jirafa</h2>
+                    <p class="price">$27000</p>
+                    <button class="btn-add-cart">Añadir al carrito</button>
+                </div>
+            </div>
+
+            <div class="item">
+                <figure>
+                    <img src="./image/producto2.jfif" alt="camiseta">
+                </figure>
+                <div class="inf-product">
+                    <h2>Camiseta No te Rindas</h2>
+                    <p class="price">$30000</p>
+                    <button class="btn-add-cart">Añadir al carrito</button>
+                </div>
+            </div>
+
+            <div class="item">
+                <figure>
+                    <img src="./image/producto3.jfif" alt="camiseta">
+                </figure>
+                <div class="inf-product">
+                    <h2>Camiseta luna</h2>
+                    <p class="price">$35000</p>
+                    <button class="btn-add-cart">Añadir al carrito</button>
+                </div>
+            </div>
+
+            <div class="item">
+                <figure>
+                    <img src="./image/producto4.jfif" alt="camiseta">
+                </figure>
+                <div class="inf-product">
+                    <h2>Camiseta San Diego</h2>
+                    <p class="price">$40000</p>
+                    <button class="btn-add-cart">Añadir al carrito</button>
+                </div>
+            </div>
+
+            <div class="item">
+                <figure>
+                    <img src="./image/producto5.jfif" alt="camiseta">
+                </figure>
+                <div class="inf-product">
+                    <h2>Camiseta Self love</h2>
+                    <p class="price">$29000</p>
+                    <button class="btn-add-cart">Añadir al carrito</button>
+                </div>
+            </div>
+
+            <div class="item">
+                <figure>
+                    <img src="./image/producto6.jfif" alt="camiseta">
+                </figure>
+                <div class="inf-product">
+                    <h2>Camiseta You Make</h2>
+                    <p class="price">$25000</p>
+                    <button class="btn-add-cart">Añadir al carrito</button>
+                </div>
+            </div>
+
+            <div class="item">
+                <figure>
+                    <img src="./image/producto7.jfif" alt="camiseta">
+                </figure>
+                <div class="inf-product">
+                    <h2>Camiseta Woman</h2>
+                    <p class="price">$32000</p>
+                    <button class="btn-add-cart">Añadir al carrito</button>
+                </div>
+            </div>
+
+            <div class="item">
+                <figure>
+                    <img src="./image/producto8.jfif" alt="camiseta">
+                </figure>
+                <div class="inf-product">
+                    <h2>Camiseta Shine</h2>
+                    <p class="price">$35000</p>
+                    <button class="btn-add-cart">Añadir al carrito</button>
+                </div>
+            </div>
+
+            <div class="item">
+                <figure>
+                    <img src="./image/producto9.jfif" alt="camiseta">
+                </figure>
+                <div class="inf-product">
+                    <h2>Camiseta Be Happy</h2>
+                    <p class="price">$30000</p>
+                    <button class="btn-add-cart">Añadir al carrito</button>
+                </div>
+            </div>
+        </div>
+    </main>
+    <footer>
+
+    </footer>
+    <script src="./js/appCart.js"></script>
+</body>
+</html>
